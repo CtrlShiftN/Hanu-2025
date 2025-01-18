@@ -1,0 +1,172 @@
+{
+    "fitness_center": [
+        {
+            "id": "f1",
+            "name": "Gym Membership",
+            "description": "Regular exercise and access to gym facilities",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 50
+                }
+            }
+        },
+        {
+            "id": "f2",
+            "name": "Personal Trainer",
+            "description": "Personalized workout plans and guidance from a certified trainer",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 15
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 10
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 200
+                }
+            }
+        },
+        {
+            "id": "f3",
+            "name": "Group Fitness Classes",
+            "description": "Participating in group workouts and classes",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_HAPPiINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 100
+                }
+            }
+        },
+        {
+            "id": "f4",
+            "name": "Nutrition Counseling",
+            "description": "Personalized nutrition advice and meal planning",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 100
+                }
+            }
+        },
+        {
+            "id": "f5",
+            "name": "Fitness Challenges",
+            "description": "Participating in fitness challenges and achieving milestones",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 15
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 10
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 50
+                }
+            }
+        },
+        {
+            "id": "f6",
+            "name": "Sports Facilities",
+            "description": "Engaging in sports activities",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 30
+                }
+            }
+        },
+        {
+            "id": "f7",
+            "name": "Wellness Workshops",
+            "description": "Attending workshops on wellness topics",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 50
+                }
+            }
+        },
+        {
+            "id": "f8",
+            "name": "Spa Services",
+            "description": "Relaxation and rejuvenation through spa treatments",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type":"DECREASE",
+                    "value": 100
+                }
+            }
+        }
+    ]
+}

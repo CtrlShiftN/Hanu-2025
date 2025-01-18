@@ -1,0 +1,21 @@
+1. Linear Gradient
+expo install expo-linear-gradient
+
+import {LinearGradient} from 'expo-linear-gradient';
+
+2. Navigation
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npx expo install react-native-gesture-handler react-native-reanimated   (If not, "Error: Exception in 
+                                                                        HostFunction:  expected 0 arguments, got 1, js engine: hermes" will occur
+npm install @react-navigation/native-stack
+npm install @react-navigation/bottom-tabs
+npm install @react-navigation/drawer
+
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createStackNavigator } from '@react-navigation/stack';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+
+3. Video
+npm install expo-av

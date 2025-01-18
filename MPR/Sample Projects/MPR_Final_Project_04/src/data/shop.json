@@ -1,0 +1,222 @@
+[
+    {
+        "id": "s1",
+        "name": "Vegetable",
+        "category": "FOOD",
+        "price": 0.5,
+        "benefits": {
+            "type": "health",
+            "value": 1
+        }
+    },
+    {
+        "id": "s2",
+        "name": "Meat",
+        "category": "FOOD",
+        "price": 3,
+        "benefits": {
+            "type": "health",
+            "value": 2
+        }
+    },
+    {
+        "id": "s3",
+        "name": "Shrimp",
+        "category": "FOOD",
+        "price": 2,
+        "benefits": {
+            "type":"health",
+            "value":3
+        }
+    },
+    {
+        "id": "s5",
+        "name": "Computer",
+        "category": "ELECTRONIC_DEVICE",
+        "price": 500,
+        "benefits": {
+            "type":"happy",
+            "value":20
+        }
+    },
+    {
+        "id": "s6",
+        "name": "House",
+        "category": "REAL_ESTATE",
+        "price": 200000,
+        "benefits": {
+            "type":"happy",
+            "value":50
+        }
+    },
+    {
+        "id": "s7",
+        "name": "Car",
+        "category": "TRANSPORTATION",
+        "price": 30000,
+        "benefits": {
+            "type":"happy",
+            "value":30
+        }
+    },
+    {
+        "id": "s8",
+        "name": "Smartphone",
+        "category": "ELECTRONIC_DEVICE",
+        "price": 800,
+        "benefits": {
+            "type":"happy",
+            "value":20
+        }
+    },
+    {
+        "id": "s9",
+        "name": "Laptop",
+        "category": "ELECTRONIC_DEVICE",
+        "price": 800,
+        "benefits": {
+            "type":"happy",
+            "value":10
+        }
+    },
+    {
+        "id": "s10",
+        "name": "Land",
+        "category": "REAL_ESTATE",
+        "price": 100000,
+        "benefits": {
+            "type":"happy",
+            "value":30
+        }
+    },
+    {
+        "id": "s11",
+        "name": "Bicycle",
+        "category": "TRANSPORTATION",
+        "price": 500,
+        "benefits": {
+            "type":"happy",
+            "value":30
+        }
+    },
+    {
+        "id": "s12",
+        "name": "Tablet",
+        "category": "ELECTRONIC_DEVICE",
+        "price": 250,
+        "benefits": {
+            "type":"happy",
+            "value":10
+        }
+    },
+    {
+        "id": "s13",
+        "name": "Apartment",
+        "category": "REAL_ESTATE",
+        "price": 50000,
+        "benefits": {
+            "type":"happy",
+            "value":60
+        }
+    },
+    {
+        "id": "s14",
+        "name": "Pencil",
+        "category": "SCHOOL_STATIONARY",
+        "price": 1,
+        "benefits": {
+            "type":"happy",
+            "value":5
+        }
+    },
+    {
+        "id": "s15",
+        "name": "Printer",
+        "category": "ELECTRONIC_DEVICE",
+        "price": 150,
+        "benefits": {
+            "type":"happy",
+            "value":20
+        }
+    },
+    {
+        "id": "s16",
+        "name": "Motorcycle",
+        "category": "TRANSPORTATION",
+        "price": 10000,
+        "benefits": {
+            "type":"happy",
+            "value":30
+        }
+    },
+    {
+        "id": "s17",
+        "name": "Eraser",
+        "category": "SCHOOL_STATIONARY",
+        "price": 0.5,
+        "benefits": {
+            "type":"happy",
+            "value":5
+        }
+    },
+    {
+        "id": "s18",
+        "name": "Headphones",
+        "category": "ELECTRONIC_DEVICE",
+        "price": 50,
+        "benefits": {
+            "type":"happy",
+            "value":15
+        }
+    },
+    {
+        "id": "s19",
+        "name": "House",
+        "category": "REAL_ESTATE",
+        "price": 100000,
+        "benefits": {
+            "type":"happy",
+            "value":30
+        }
+    },
+    {
+        "id": "s20",
+        "name": "Bus",
+        "category": "TRANSPORTATION",
+        "price": 15000,
+        "benefits": {
+            "type":"happy",
+            "value":10
+        }
+    },
+    {
+        "id": "s21",
+        "name": "Soccer stadium",
+        "category": "REAL_ESTATE",
+        "price": 100000,
+        "benefits": {
+            "type":"happy",
+            "value":30
+        }
+    },
+    {
+        "id": "s22",
+        "name": "Helicopter",
+        "category": "TRANSPORTATION",
+        "price": 1000000,
+        "benefits": {
+            "type":"happy",
+            "value":70
+        }
+    },
+    {
+        "id": "s23",
+        "name": "Walking Shoes",
+        "category": "TRANSPORTATION",
+        "price": 50,
+        "benefits": {
+            "type":"happy",
+            "value":20
+        }
+    }
+]

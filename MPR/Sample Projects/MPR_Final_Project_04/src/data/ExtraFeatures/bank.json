@@ -1,0 +1,150 @@
+{
+    "bank": [
+        {
+            "id": "b1",
+            "name": "National Bank",
+            "description": "Standard banking services and managing finances responsibly",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 5
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 500
+                }
+            }
+        },
+        {
+            "id": "b2",
+            "name": "Private Bank",
+            "description": "Premium financial services and financial advice",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_SKILLS",
+                        "value": 5
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 10
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 500
+                }
+            }
+        },
+        {
+            "id": "b3",
+            "name": "Online Bank",
+            "description": "Manage finances efficiently through online platforms",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 5
+                    },
+                    {
+                        "type": "INCREASE_SKILLS",
+                        "value": 5
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 50
+                }
+            }
+        },
+        {
+            "id": "b4",
+            "name": "Credit Union",
+            "description": "Support community-based financial institutions and cooperative banking",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 5
+                    },
+                    {
+                        "type": "INCREASE_SKILLS",
+                        "value": 5
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 150
+                }
+            }
+        },
+        {
+            "id": "b5",
+            "name": "Investment Bank",
+            "description": "Engage in complex financial transactions and investment strategies",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_SKILLS",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 500
+                }
+            }
+        },
+        {
+            "id": "b6",
+            "name": "Regional Bank",
+            "description": "Support local banking institutions and regional economic trends",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 5
+                    },
+                    {
+                        "type": "INCREASE_SKILLS",
+                        "value": 5
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 200
+                }
+            }
+        }
+    ]
+}

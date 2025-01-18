@@ -1,0 +1,473 @@
+{
+    "startup": {
+        "condition": {
+            "age": 18
+        },
+        "stage": [
+            {
+                "id": "stage1",
+                "name": "Novice Navigator",
+                "condition": {
+                    "smart": 50,
+                    "skills": 50,
+                    "health": 60
+                },
+                "initial_investment": {
+                    "value": 10000,
+                    "currency": "USD"
+                },
+                "effects": [
+                    {
+                        "id": "ef1",
+                        "name": "Seeking initial investments",
+                        "description": "Seeking initial investments",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "DECREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ef2",
+                        "name": "Developing Foundational Courses",
+                        "description": "Developing Foundational Courses",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 12
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ef3",
+                        "name": "Implementing Basic Infrastructure",
+                        "description": "Implementing Basic Infrastructure",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 7
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "bank_balance": {
+                    "type": "INCREASE",
+                    "value": 20000,
+                    "unit": "per year"
+                },
+                "player_choice": [
+                    {
+                        "id": "choice1",
+                        "name": "Continue the journey"
+                    },
+                    {
+                        "id": "choice2",
+                        "name": "Stop and accept the current results"
+                    }
+                ]
+            },
+            {
+                "id": "stage2",
+                "name": "Proficient Pathfinder",
+                "condition": {
+                    "smart": 60,
+                    "skills": 60,
+                    "health": 60
+                },
+                "initial_investment": {
+                    "value": 20000,
+                    "currency": "USD"
+                },
+                "effects": [
+                    {
+                        "id": "ef1",
+                        "name": "Expanding Course Offerings",
+                        "description": "Expanding Course Offerings",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 12
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ef2",
+                        "name": "Enhancing Learning Tools",
+                        "description": "Enhancing Learning Tools",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 1
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ef3",
+                        "name": "Launching Marketing Campaigns",
+                        "description": "Launching Marketing Campaigns",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 3
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "bank_balance": {
+                    "type": "INCREASE",
+                    "value": 30000,
+                    "unit": "per year"
+                },
+                "player_choice": [
+                    {
+                        "id": "choice1",
+                        "name": "Continue the journey"
+                    },
+                    {
+                        "id": "choice2",
+                        "name": "Stop and maintain achievements"
+                    }
+                ]
+            },
+            {
+                "id": "stage3",
+                "name": "Expert Explorer",
+                "condition": {
+                    "smart": 70,
+                    "skills": 70,
+                    "health": 60
+                },
+                "initial_investment": {
+                    "value": 30000,
+                    "currency": "USD"
+                },
+                "effects": [
+                    {
+                        "id": "ef1",
+                        "name": "Introducing Advanced Courses",
+                        "description": "Introducing Advanced Courses",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 12
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 7
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ef2",
+                        "name": "Establishing Mentorship Programs",
+                        "description": "Establishing Mentorship Programs",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 6
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 12
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 1
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ef3",
+                        "name": "Offering Certification Programs",
+                        "description": "Offering Certification Programs",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 3
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "bank_balance": {
+                    "type": "INCREASE",
+                    "value": 50000,
+                    "unit": "per year"
+                },
+                "player_choice": [
+                    {
+                        "id": "choice1",
+                        "name": "Continue the journey"
+                    },
+                    {
+                        "id": "choice2",
+                        "name": "Stop and maintain achievements"
+                    }
+                ]
+            },
+            {
+                "id": "stage4",
+                "name": "Master",
+                "condition": {
+                    "smart": 80,
+                    "skills": 80,
+                    "health": 50
+                },
+                "initial_investment": {
+                    "value": 50000,
+                    "currency": "USD"
+                },
+                "effects": [
+                    {
+                        "id": "ef1",
+                        "name": "Expanding Mentorship Networks",
+                        "description": "Expanding Mentorship Networks",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 20
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 1
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ef2",
+                        "name": "Creating Expert-led Masterclasses",
+                        "description": "Creating Expert-led Masterclasses",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 12
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 6
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 2
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "ef3",
+                        "name": "Exploring Global Expansion",
+                        "description": "Exploring Global Expansion",
+                        "result": {
+                            "character": [
+                                {
+                                    "type": "INCREASE_HAPPINESS",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "INCREASE_SMART",
+                                    "value": 8
+                                },
+                                {
+                                    "type": "DECREASE_HEALTH",
+                                    "value": 7
+                                },
+                                {
+                                    "type": "INCREASE_SKILLS",
+                                    "value": 18
+                                },
+                                {
+                                    "type": "DECREASE_LOOK",
+                                    "value": 3
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "bank_balance": {
+                    "type": "INCREASE",
+                    "value": 100000,
+                    "unit": "per year"
+                },
+                "player_choice": [
+                    {
+                        "id": "choice1",
+                        "name": "Congratulations! You are a Master!"
+                    }
+                ]
+            }
+        ]
+    }
+}

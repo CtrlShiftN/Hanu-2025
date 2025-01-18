@@ -1,0 +1,144 @@
+{
+    "hospital": [
+        {
+            "id": "h1",
+            "name": "GENERAL",
+            "description": "Go to general hospital",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 20
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 500
+                }
+            }
+        },
+        {
+            "id": "h2",
+            "name": "CARDIOLORGY",
+            "description": "Go to cardiolorgy hospital",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 15
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 700
+                }
+            }
+        },
+        {
+            "id": "h3",
+            "name": "ORTHOPEDIC",
+            "description": "Go to orthopedic hospital",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_LOOK",
+                        "value": 10
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 400
+                }
+            }
+        },
+        {
+            "id": "h4",
+            "name": "NEUROLOGY",
+            "description": "Go to neurology hospital",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 15
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 600
+                }
+            }
+        },
+        {
+            "id": "h5",
+            "name": "PEDIATRIC",
+            "description": "Go to pediatric hospital",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 15
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 10
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 300
+                }
+            }
+        },
+        {
+            "id": "h6",
+            "name": "MATERNITY",
+            "description": "Go to marternity hospital",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 15
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 10
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 800
+                }
+            }
+        },
+        {
+            "id": "h7",
+            "name": "PSYCHIATRIC",
+            "character": "HEALTH",
+            "description": "Go to psychiatric hospital",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 15
+                    },
+                    {
+                        "type": "INCREASE_LOOK",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 10
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 500
+                }
+            }
+        }
+    ]
+}

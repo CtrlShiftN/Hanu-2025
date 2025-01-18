@@ -1,0 +1,342 @@
+[
+    {
+        "id": "j1",
+        "name": "React Native Developer",
+        "description": "Make mobile app with fully functional and beautifull user interface",
+        "require": [
+            {
+                "smart": 20,
+                "skill": 30,
+                "language": ["Javascript", "Html", "Css"]
+            }
+        ],
+        "salary": 1500,
+        "level": 1,
+        "promotion": {
+            "description": "once per 6 month"
+        }
+    },
+    {
+        "id": "j2",
+        "name": "Frontend Developer",
+        "description": "Develop user interface for web applications",
+        "require": [
+            {
+                "smart": 15,
+                "skill": 40,
+                "language": ["Javascript", "Html", "Css"]
+            }
+        ],
+        "salary": 1800,
+        "level": 1,
+        "promotion": {
+            "description": "once per year"
+        }
+    },
+    {
+        "id": "j3",
+        "name": "Backend Developer",
+        "description": "Develop server-side logic and databases for web applications",
+        "require": [
+            {
+                "smart": 18,
+                "skill": 45,
+                "language": ["Node.js", "Python", "Java"]
+            }
+        ],
+        "salary": 1900,
+        "level": 1,
+        "promotion": {
+            "description": "once per year"
+        }
+    },
+    {
+        "id": "j4",
+        "name": "Mobile App Developer",
+        "description": "Develop native or hybrid mobile applications for iOS and Android platforms",
+        "require": [
+            {
+                "smart": 17,
+                "skill": 45,
+                "language": ["Java", "Kotlin", "Swift"]
+            }
+        ],
+        "salary": 1900,
+        "level": 1,
+        "promotion": {
+            "description": "once per year"
+        }
+    },
+    {
+        "id": "j5",
+        "name": "Software Engineer",
+        "description": "Design, develop, and maintain software applications",
+        "require": [
+            {
+                "smart": 20,
+                "skill": 50,
+                "language": ["Python", "Java", "C++"]
+            }
+        ],
+        "salary": 2100,
+        "level": 2,
+        "promotion": {
+            "description": "twice per year"
+        }
+    },
+    {
+        "id": "j6",
+        "name": "Data Scientist",
+        "description": "Analyze and interpret complex data sets to inform business decisions",
+        "require": [
+            {
+                "smart": 22,
+                "skill": 55,
+                "language": ["Python", "R", "SQL"]
+            }
+        ],
+        "salary": 2500,
+        "level": 3,
+        "promotion": {
+            "description": "once per year"
+        }
+    },
+    {
+        "id": "j7",
+        "name": "UI/UX Designer",
+        "description": "Design user interface and user experience for web and mobile applications",
+        "require": [
+            {
+                "smart": 15,
+                "skill": 40,
+                "language": ["Adobe XD", "Sketch", "Figma"]
+            }
+        ],
+        "salary": 1800,
+        "level": 2,
+        "promotion": {
+            "description": "twice per year"
+        }
+    },
+    {
+        "id": "j8",
+        "name": "DevOps Engineer",
+        "description": "Implement and manage continuous integration and deployment pipelines",
+        "require": [
+            {
+                "smart": 18,
+                "skill": 45,
+                "language": ["Docker", "Kubernetes", "Jenkins"]
+            }
+        ],
+        "salary": 2200,
+        "level": 2,
+        "promotion": {
+            "description": "twice per year"
+        }
+    },
+    {
+        "id": "j9",
+        "name": "Quality Assurance Engineer",
+        "description": "Test software applications to ensure they meet quality standards",
+        "require": [
+            {
+                "smart": 15,
+                "skill": 40,
+                "language": ["Selenium", "JUnit", "Postman"]
+            }
+        ],
+        "salary": 1800,
+        "level": 1,
+        "promotion": {
+            "description": "once per year"
+        }
+    },
+    {
+        "id": "j10",
+        "name": "Cyber Security Analyst",
+        "description": "Protect computer systems and networks from cyber attacks",
+        "require": [
+            {
+                "smart": 20,
+                "skill": 50,
+                "language": ["Penetration Testing", "Firewalls", "SIEM"]
+            }
+        ],
+        "salary": 2300,
+        "level": 3,
+        "promotion": {
+            "description": "once per year"
+        }
+    },
+    {
+        "id": "j11",
+        "name": "Full Stack Developer",
+        "description": "Develop both client-side and server-side software for web applications",
+        "require": [
+            {
+                "smart": 20,
+                "skill": 50,
+                "language": ["Javascript", "HTML", "CSS", "Node.js", "React", "Express"]
+            }
+        ],
+        "salary": 2200,
+        "level": 2,
+        "promotion": {
+            "description": "twice per year"
+        }
+    },
+    {
+        "id": "j12",
+        "name": "Cloud Engineer",
+        "description": "Design, build, and manage cloud infrastructure and services",
+        "require": [
+            {
+                "smart": 60,
+                "skill": 60,
+                "language": ["Amazon Web Services", "Microsoft Azure", "Google Cloud Platform"]
+            }
+        ],
+        "salary": 2100,
+        "level": 2,
+        "promotion": {
+            "description": "twice per year"
+        }
+    },
+    {
+        "id": "j13",
+        "name": "IT Support Specialist",
+        "description": "Provide technical support to users and troubleshoot issues with hardware and software",
+        "require": [
+            {
+                "smart": 70,
+                "skill": 70,
+                "language": ["Windows", "MacOS", "Linux"]
+            }
+        ],
+        "salary": 1700,
+        "level": 1,
+        "promotion": {
+            "description": "once per year"
+        }
+    },
+    {
+        "id": "j14",
+        "name": "Database Administrator",
+        "description": "Administer and manage databases to ensure data integrity and availability",
+        "require": [
+            {
+                "smart": 60,
+                "skill": 60,
+                "language": ["SQL", "MySQL", "MongoDB"]
+            }
+        ],
+        "salary": 2000,
+        "level": 2,
+        "promotion": {
+            "description": "twice per year"
+        }
+    },
+    {
+        "id": "j15",
+        "name": "Network Engineer",
+        "description": "Design, implement, and maintain computer networks for organizations",
+        "require": [
+            {
+                "smart": 50,
+                "skill": 50,
+                "language": ["Cisco", "Juniper", "TCP/IP"]
+            }
+        ],
+        "salary": 2000,
+        "level": 2,
+        "promotion": {
+            "description": "twice per year"
+        }
+    },
+    {
+        "id": "j16",
+        "name": "Machine Learning Engineer",
+        "description": "Develop and deploy machine learning models to solve real-world problems",
+        "require": [
+            {
+                "smart": 80,
+                "skill": 80,
+                "language": ["Python", "TensorFlow", "Scikit-learn"]
+            }
+        ],
+        "salary": 3500,
+        "level": 3,
+        "promotion": {
+            "description": "once per year"
+        }
+    },
+    {
+        "id": "j17",
+        "name": "Embedded Systems Engineer",
+        "description": "Design and develop embedded software for electronic devices and systems",
+        "require": [
+            {
+                "smart": 70,
+                "skill": 80,
+                "language": ["C", "C++", "RTOS"]
+            }
+        ],
+        "salary": 3000,
+        "level": 2,
+        "promotion": {
+            "description": "twice per year"
+        }
+    },
+    {
+        "id": "j18",
+        "name": "IT Project Manager",
+        "description": "Plan, execute, and manage IT projects to ensure they are completed on time and within budget",
+        "require": [
+            {
+                "smart": 90,
+                "skill": 95,
+                "language": ["Project Management", "Agile", "Scrum"]
+            }
+        ],
+        "salary": 5000,
+        "level": 3,
+        "promotion": {
+            "description": "once per year"
+        }
+    },
+    {
+        "id": "j19",
+        "name": "IT Consultant",
+        "description": "Provide expert advice and recommendations to clients on IT strategy, solutions, and implementation",
+        "require": [
+            {
+                "smart": 20,
+                "skill": 50,
+                "language": ["Communication", "Problem Solving", "Technical Knowledge"]
+            }
+        ],
+        "salary": 2000,
+        "level": 3,
+        "promotion": {
+            "description": "once per year"
+        }
+    },
+    {
+        "id": "j20",
+        "name": "Blockchain Developer",
+        "description": "Develop decentralized applications (dApps) and smart contracts using blockchain technology",
+        "require": [
+            {
+                "smart": 50,
+                "skill": 50,
+                "language": ["Solidity", "Ethereum", "Blockchain"]
+            }
+        ],
+        "salary": 2600,
+        "level": 3,
+        "promotion": {
+            "description": "once per year"
+        }
+    }
+]

@@ -1,0 +1,447 @@
+{
+    "part_time_jobs": {
+        "description": "Part-time jobs",
+        "jobs": [
+            {
+                "id": "j1",
+                "name": "Software Engineer",
+                "condition": {
+                    "smart": 70,
+                    "skills": 70,
+                    "age": 19
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 5
+                        }
+                    ],
+                    "salary": {
+                        "value": 10000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j2",
+                "name": "Marketing Manager",
+                "condition": {
+                    "smart": 65,
+                    "skills": 65,
+                    "age": 21
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 5
+                        }
+                    ],
+                    "salary": {
+                        "value": 8000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j3",
+                "name": "Graphic Designer",
+                "condition": {
+                    "look": 70,
+                    "skills": 70,
+                    "age": 19
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_LOOK",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 5
+                        }
+                    ],
+                    "salary": {
+                        "value": 6000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j4",
+                "name": "Content Writer",
+                "condition": {
+                    "smart": 60,
+                    "skills": 60,
+                    "age": 19
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 5
+                        }
+                    ],
+                    "salary": {
+                        "value": 5000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j5",
+                "name": "Customer Service Representative",
+                "condition": {
+                    "smart": 55,
+                    "skills": 55,
+                    "age": 19
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 5
+                        }
+                    ],
+                    "salary": {
+                        "value": 4000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j6",
+                "name": "Delivery Driver",
+                "condition": {
+                    "age": 19
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "DECREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 10
+                        }
+                    ],
+                    "salary": {
+                        "value": 3000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j7",
+                "name": "Retail Sales Associate",
+                "condition": {
+                    "age": 19
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "DECREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 10
+                        }
+                    ],
+                    "salary": {
+                        "value": 3000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j8",
+                "name": "Accountant",
+                "condition": {
+                    "smart": 70,
+                    "skills": 70,
+                    "age": 21
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 5
+                        }
+                    ],
+                    "salary": {
+                        "value": 10000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j9",
+                "name": "Web Developer",
+                "condition": {
+                    "smart": 70,
+                    "skills": 70,
+                    "age": 19
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 5
+                        }
+                    ],
+                    "salary": {
+                        "value": 9000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j10",
+                "name": "HR Specialist",
+                "condition": {
+                    "smart": 65,
+                    "skills": 65,
+                    "age": 21
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 5
+                        }
+                    ],
+                    "salary": {
+                        "value": 7000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j11",
+                "name": "Electrician",
+                "condition": {
+                    "skills": 60,
+                    "age": 19
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "DECREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 10
+                        }
+                    ],
+                    "salary": {
+                        "value": 5000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j12",
+                "name": "Chef",
+                "condition": {
+                    "skills": 60,
+                    "age": 19
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "DECREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 10
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 5
+                        }
+                    ],
+                    "salary": {
+                        "value": 6000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j13",
+                "name": "Teacher",
+                "condition": {
+                    "smart": 60,
+                    "skills": 60,
+                    "age": 21
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 5
+                        }
+                    ],
+                    "salary": {
+                        "value": 8000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            },
+            {
+                "id": "j14",
+                "name": "Construction Worker",
+                "condition": {
+                    "age": 19
+                },
+                "result": {
+                    "character": [
+                        {
+                            "type": "DECREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        },
+                        {
+                            "type": "DECREASE_HEALTH",
+                            "value": 10
+                        }
+                    ],
+                    "salary": {
+                        "value": 4000,
+                        "currency": "USD",
+                        "unit": "per year"
+                    }
+                }
+            }
+        ]
+    }
+}

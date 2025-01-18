@@ -1,0 +1,172 @@
+{
+    "insurance": [
+        {
+            "id": "i1",
+            "name": "Health Insurance",
+            "description": "Coverage for medical expenses and preventive care",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 300
+                }
+            }
+        },
+        {
+            "id": "i2",
+            "name": "Property Insurance",
+            "description": "Protection against property damage or loss",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 15
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 200
+                }
+            }
+        },
+        {
+            "id": "i3",
+            "name": "Life Insurance",
+            "description": "Protection against financial loss in case of death",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 15
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 200
+                }
+            }
+        },
+        {
+            "id": "i4",
+            "name": "Travel Insurance",
+            "description": "Coverage for medical emergencies and assistance during travel",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_HEALTH",
+                        "value": 5
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 100
+                }
+            }
+        },
+        {
+            "id": "i5",
+            "name": "Auto Insurance",
+            "description": "Protection against financial loss due to accidents or theft",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 5
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 400
+                }
+            }
+        },
+        {
+            "id": "i6",
+            "name": "Liability Insurance",
+            "description": "Protection against legal claims and financial loss due to lawsuits",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 5
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 300
+                }
+            }
+        },
+        {
+            "id": "i7",
+            "name": "Business Insurance",
+            "description": "Protection against business assets and risks",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 1000
+                }
+            }
+        },
+        {
+            "id": "i8",
+            "name": "Pet Insurance",
+            "description": "Protection against pet health issues",
+            "result": {
+                "character": [
+                    {
+                        "type": "INCREASE_SMART",
+                        "value": 10
+                    },
+                    {
+                        "type": "INCREASE_HAPPINESS",
+                        "value": 5
+                    }
+                ],
+                "bank_balance": {
+                    "type": "DECREASE",
+                    "value": 150
+                }
+            }
+        }
+    ]
+}

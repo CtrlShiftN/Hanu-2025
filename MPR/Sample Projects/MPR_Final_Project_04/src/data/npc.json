@@ -1,0 +1,539 @@
+{
+    "npcs":[
+        {
+            "id":"n1",
+            "name":"Đoàn Hiệp",
+            "age":4,
+            "hobby":[
+                "Listem music","Read book"
+            ],
+            "charater":[
+                "Smart","Selfish"
+            ],
+            "description":"He is good but he always spend for itself",
+            "behaivor": "Dislike",
+            "sex":0,
+            "relation":true
+        },
+        {
+            "id":"n2",
+            "name":"Duy Anh",
+            "age":6,
+            "hobby":[
+                "Read book",
+                "Sport"
+            ],
+            "charater":[
+                "Rich"
+            ],
+            "description":"He is a rich man and help people around",
+            "behaivor":"Normal",
+            "sex":0,
+            "relation":true
+        },
+        {
+            "id":"n3",
+            "name":"Văn Thịnh",
+            "age":6,
+            "hobby":[
+                "Play with dogs",
+                "Sport"
+            ],
+            "charater":[
+                "Smart","Humorous"
+            ],
+            "description":"He is good but don't like you",
+            "behaivor":"Dislike",
+            "sex":0,
+            "relation":false
+        },
+        {
+            "id":"n4",
+            "name":"Jame",
+            "age":10,
+            "hobby":[
+                "Cat",
+                "Shopping"
+            ],
+            "charater":[
+                "Generous","Smart"
+            ],
+            "description":"He is greatest people!",
+            "behaivor":"Normal",
+            "sex":0,
+            "relation":false
+        },
+        {
+            "id":"n5",
+            "name":"Shame",
+            "age":12,
+            "hobby":[
+                "Study"
+            ],
+            "charater":[
+                "Smart","outstanding"
+            ],
+            "description":"Study is her life",
+            "sex":1,
+            "relation":true
+        },
+        {
+            "id":"n6",
+            "name":"Kama",
+            "age":15,
+            "hobby":[
+                "Flower",
+                "Travel"
+            ],
+            "charater":[
+                "Humorous", "Brave"
+            ],
+            "description":"The world need to be explored and I will try it",
+            "sex":1,
+            "relation":true
+        },
+        {
+            "id":"n7",
+            "name":"Tony",
+            "age":15,
+            "hobby":[
+              "Play",
+              "Game"
+            ],
+            "charater":[
+                "Lazy"
+            ],
+            "description":"Sleep, sleep and sleep",
+            "sex":0,
+            "relation":false
+        },
+        {
+            "id":"n8",
+            "name":"Ngoc Anh",
+            "age":17,
+            "hobby":[
+                "Eat",
+                "Math"
+            ],
+            "charater":[
+                "outstanding"
+            ],
+            "description":"He is good but he always spend for itself",
+            "sex":0,
+            "relation":false
+        },
+        {
+            "id":"n9",
+            "name":"Hull",
+            "age":4,
+            "hobby":[
+                "Sport"
+            ],
+            "charater":[
+                "Like sport"
+            ],
+            "description":"He is good but he always spend for itself",
+            "relation":true
+        },
+        {   
+            "id":"n10",
+            "name": "Jenna",
+            "age": 23,
+            "sex": 1,
+            "hobby": "Photography",
+            "character": ["Outgoing", "Adventurous"],
+            "description": "Enthusiastic about exploring new places and capturing moments through her lens.",
+            "relation": true
+        },
+        {
+            "id":"n11",
+            "name": "Alex",
+            "age": 30,
+            "sex": 0,
+            "hobby": "Cooking",
+            "character": ["Creative", "Meticulous"],
+            "description": "Finds joy in experimenting with ingredients and creating delicious dishes from scratch.",
+            "relation": true
+        },
+        {
+            "id":"n12",
+            "name": "Marcus",
+            "age": 28,
+            "sex": 0,
+            "hobby": "Playing guitar",
+            "character": ["Musical", "Introspective"],
+            "description": "Spends his free time strumming melodies and expressing himself through music.",
+            "relation": true
+        },
+        {
+            "id":"n13",
+            "name": "Sophia",
+            "age": 25,
+            "sex": 1,
+            "hobby": "Hiking",
+            "character": ["Nature lover", "Adventurous"],
+            "description": "Often seen exploring trails and immersing herself in the tranquility of the great outdoors.",
+            "relation": true
+        },
+        {
+            "id":"n14",
+            "name": "Ryan",
+            "age": 32,
+            "sex": 0,
+            "hobby": "Writing",
+            "character": ["Imaginative", "Introspective"],
+            "description": "Has a passion for storytelling and spends hours crafting narratives and exploring different writing styles.",
+            "relation": true
+        },
+        {
+            "id":"n15",
+            "name": "Emily",
+            "age": 20,
+            "sex": 1,
+            "hobby": "Painting",
+            "character": ["Artistic", "Free-spirited"],
+            "description": "Expresses her creativity through vibrant colors and abstract compositions on canvas.",
+            "relation": true
+        },
+        {
+            "id":"n16",
+            "name": "Jordan",
+            "age": 29,
+            "sex": 0,
+            "hobby": "Yoga",
+            "character": ["Calm", "Centered"],
+            "description": "Finds peace and balance through regular yoga practice, promoting mindfulness and self-awareness.",
+            "relation": true
+        },
+        {
+            "id":"n17",
+            "name": "Tyler",
+            "age": 26,
+            "sex": 0,
+            "hobby": "Playing basketball",
+            "character": ["Competitive", "Energetic"],
+            "description": "Enjoys the thrill of the game and the camaraderie of team sports, always striving to improve his skills on the court.",
+            "relation": true
+        },
+        {
+            "id":"n18",
+            "name": "Haley",
+            "age": 22,
+            "sex": 1,
+            "hobby": "Dancing",
+            "character": ["Energetic", "Expressive"],
+            "description": "Loves to dance her heart out, whether it's in a studio, at a club, or simply in the comfort of her own home.",
+            "relation": true
+        },
+        {
+            "id":"n19",
+            "name": "Nathan",
+            "age": 31,
+            "sex": 0,
+            "hobby": "Gardening",
+            "character": ["Patient", "Nurturing"],
+            "description": "Finds solace in tending to plants and cultivating beautiful gardens, fostering a deep connection with nature.",
+            "relation": true
+        },
+        {
+            "id":"n20",
+            "name": "Lily",
+            "age": 19,
+            "sex": 1,
+            "hobby": "Reading",
+            "character": ["Intellectual", "Introspective"],
+            "description": "Finds joy in getting lost in the pages of a good book, exploring different worlds and perspectives through literature.",
+            "relation": true
+        },
+        {
+            "id":"n21",
+            "name": "Sam",
+            "age": 27,
+            "sex": 0,
+            "hobby": "Surfing",
+            "character": ["Adventurous", "Free-spirited"],
+            "description": "Finds exhilaration in riding the waves and connecting with the ocean's energy.",
+            "relation": true
+        },
+        {
+            "id":"n22",
+            "name": "Eva",
+            "age": 24,
+            "sex": 1,
+            "hobby": "Traveling",
+            "character": ["Curious", "Adventurous"],
+            "description": "Always eager to explore new cultures and destinations, embracing the unknown with open arms.",
+            "relation": true
+        },
+        {
+            "id":"n23",
+            "name": "Michael",
+            "age": 33,
+            "sex": 0,
+            "hobby": "Fishing",
+            "character": ["Patient", "Reflective"],
+            "description": "Finds peace and tranquility by the water, enjoying the solitude and the thrill of the catch.",
+            "relation": true
+        },
+        {
+            "id":"n24",
+            "name": "Grace",
+            "age": 21,
+            "sex": 1,
+            "hobby": "Running",
+            "character": ["Energetic", "Determined"],
+            "description": "Finds liberation and clarity in the rhythm of her footsteps, pushing herself to new limits with each stride.",
+            "relation": true
+        },
+        {
+            "id":"n25",
+            "name": "Daniel",
+            "age": 40,
+            "sex": 0,
+            "hobby": "Golfing",
+            "character": ["Focused", "Strategic"],
+            "description": "Spends weekends on the golf course, honing his skills and enjoying the outdoors.",
+            "relation": true
+        },
+        {
+            "id":"n26",
+            "name": "Rebecca",
+            "age": 38,
+            "sex": 1,
+            "hobby": "Sculpting",
+            "character": ["Creative", "Detail-oriented"],
+            "description": "Finds solace in shaping clay into works of art, expressing her innermost thoughts and emotions through sculpture.",
+            "relation": true
+        },
+        {
+            "id":"n27",
+            "name": "Mark",
+            "age": 45,
+            "sex": 0,
+            "hobby": "Woodworking",
+            "character": ["Craftsman", "Patient"],
+            "description": "Creates intricate pieces of furniture and decor, finding satisfaction in the art of woodworking.",
+            "relation": true
+        },
+        {
+            "id":"n28",
+            "name": "Stephanie",
+            "age": 42,
+            "sex": 1,
+            "hobby": "Cooking",
+            "character": ["Passionate", "Experimental"],
+            "description": "Finds joy in exploring new recipes and flavors, turning her kitchen into a creative laboratory.",
+            "relation": true
+        },
+        {
+            "id":"n29",
+            "name": "David",
+            "age": 55,
+            "sex": 0,
+            "hobby": "Photography",
+            "character": ["Observant", "Artistic"],
+            "description": "Captures moments in time with his camera, finding beauty in the ordinary and the extraordinary.",
+            "relation": true
+        },
+        {
+            "id":"n30",
+            "name": "Catherine",
+            "age": 50,
+            "sex": 1,
+            "hobby": "Gardening",
+            "character": ["Nurturing", "Green thumb"],
+            "description": "Tends to her garden with love and care, cultivating a colorful oasis of flowers and plants.",
+            "relation": true
+        },
+        {
+            "id":"n31",
+            "name": "Jonathan",
+            "age": 48,
+            "sex": 0,
+            "hobby": "Reading",
+            "character": ["Intellectual", "Curious"],
+            "description": "Dives into books to expand his knowledge and imagination, exploring a wide range of topics and genres.",
+            "relation": true
+        },
+        {
+            "id":"n32",
+            "name": "Vanessa",
+            "age": 36,
+            "sex": 1,
+            "hobby": "Hiking",
+            "character": ["Adventurous", "Nature lover"],
+            "description": "Finds peace and adventure on the trails, exploring new landscapes and connecting with the wilderness.",
+            "relation": true
+        },
+        {
+            "id":"m33",
+            "name": "Adam",
+            "age": 57,
+            "sex": 0,
+            "hobby": "Fishing",
+            "character": ["Patient", "Contemplative"],
+            "description": "Spends quiet mornings by the lake, casting his line and reflecting on life's mysteries.",
+            "relation": true
+        },
+        {
+            "id":"m34",
+            "name": "Laura",
+            "age": 39,
+            "sex": 1,
+            "hobby": "Painting",
+            "character": ["Artistic", "Expressive"],
+            "description": "Pours her emotions onto canvas, creating vibrant and captivating works of art.",
+            "relation": true
+        },
+        {
+            "id":"m35",
+            "name": "Robert",
+            "age": 44,
+            "sex": 0,
+            "hobby": "Running",
+            "character": ["Energetic", "Disciplined"],
+            "description": "Finds freedom and clarity in the rhythm of his footsteps, pushing himself to new limits with each run.",
+            "relation": true
+        },
+        {
+            "id":"m36",
+            "name": "Michelle",
+            "age": 37,
+            "sex": 1,
+            "hobby": "Yoga",
+            "character": ["Mindful", "Balanced"],
+            "description": "Nurtures her body and soul through the practice of yoga, finding peace and serenity in each pose.",
+            "relation": true
+        },
+        {
+            "id": "m37",
+            "name": "Patrick",
+            "age": 52,
+            "sex": 0,
+            "hobby": "Traveling",
+            "character": ["Adventurous", "Curious"],
+            "description": "Embarks on journeys to explore new cultures and perspectives, embracing the diversity of the world.",
+            "relation": true
+        },
+        {
+            "id":"m38",
+            "name": "Rachel",
+            "age": 46,
+            "sex": 1,
+            "hobby": "Dancing",
+            "character": ["Energetic", "Passionate"],
+            "description": "Loses herself in the rhythm of the music, expressing joy and emotion through dance.",
+            "relation": true
+        },
+        {
+            "id":"m39",
+            "name": "Christopher",
+            "age": 60,
+            "sex": 0,
+            "hobby": "Playing piano",
+            "character": ["Musical", "Melancholic"],
+            "description": "Finds solace and expression in the melodies of the piano, evoking a range of emotions with each keystroke.",
+            "relation": true
+        },
+        {
+            "id":"m40",
+            "name": "Eleanor",
+            "age": 68,
+            "sex": 1,
+            "hobby": "Gardening",
+            "character": ["Nurturing", "Green thumb"],
+            "description": "Spends hours in her garden, nurturing plants and creating a beautiful haven of flowers and vegetables.",
+            "relation": true
+        },
+        {
+            "id":"m41",
+            "name": "Henry",
+            "age": 73,
+            "sex": 0,
+            "hobby": "Fishing",
+            "character": ["Patient", "Reflective"],
+            "description": "Finds peace and tranquility by the water, casting his line and enjoying the serenity of nature.",
+            "relation": true
+        },
+        {
+            "id":"m42",
+            "name": "Margaret",
+            "age": 76,
+            "sex": 1,
+            "hobby": "Reading",
+            "character": ["Intellectual", "Curious"],
+            "description": "Devours books of all genres, always eager to learn and explore new ideas.",
+            "relation": true
+        },
+        {
+            "id":"m43",
+            "name": "George",
+            "age": 65,
+            "sex": 0,
+            "hobby": "Woodworking",
+            "character": ["Craftsman", "Detail-oriented"],
+            "description": "Crafts intricate pieces of furniture with precision and skill, finding fulfillment in the art of woodworking.",
+            "relation": true
+        },
+        {
+            "id":"m44",
+            "name": "Alice",
+            "age": 70,
+            "sex": 1,
+            "hobby": "Painting",
+            "character": ["Artistic", "Creative"],
+            "description": "Expresses her innermost thoughts and emotions through vibrant paintings, capturing beauty in every brushstroke.",
+            "relation": true
+        },
+        {
+            "id":"m45",
+            "name": "William",
+            "age": 69,
+            "sex": 0,
+            "hobby": "Golfing",
+            "character": ["Focused", "Strategic"],
+            "description": "Spends leisurely afternoons on the golf course, enjoying the challenge and camaraderie of the game.",
+            "relation": true
+        },
+        {
+            "id":"m46",
+            "name": "Dorothy",
+            "age": 72,
+            "sex": 1,
+            "hobby": "Cooking",
+            "character": ["Passionate", "Traditional"],
+            "description": "Whips up delicious meals from scratch, infusing each dish with love and warmth.",
+            "relation": true
+        },
+        {
+            "id":"m47",
+            "name": "Arthur",
+            "age": 66,
+            "sex": 0,
+            "hobby": "Photography",
+            "character": ["Observant", "Artistic"],
+            "description": "Captures the beauty of the world through his lens, preserving memories and moments in stunning photographs.",
+            "relation": true
+        },
+        {
+            "id":"m48",
+            "name": "Mildred",
+            "age": 75,
+            "sex": 1,
+            "hobby": "Knitting",
+            "character": ["Patient", "Creative"],
+            "description": "Creates intricate patterns and cozy garments with her knitting needles, finding comfort and joy in the art of knitting.",
+            "relation": true
+        },
+        {
+            "id":"m49",
+            "name": "Stanley",
+            "age": 68,
+            "sex": 0,
+            "hobby": "Playing chess",
+            "character": ["Strategic", "Intellectual"],
+            "description": "Engages in strategic battles of wit and skill on the chessboard, always planning several moves ahead.",
+            "relation": true
+        }
+    ]
+}

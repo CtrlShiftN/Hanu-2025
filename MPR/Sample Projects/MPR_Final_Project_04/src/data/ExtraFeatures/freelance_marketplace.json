@@ -1,0 +1,124 @@
+{
+    "freelance_marketplace": [
+        {
+            "id": "fm1",
+            "name": "Software Development",
+            "description": "Complete coding tasks, software development projects, or bug fixes.",
+            "condition": {
+                "smart": 70,
+                "skills": 70
+            },
+            "salary": {
+                "min": 50,
+                "max": 100,
+                "currency": "USD",
+                "unit": "per hour"
+            }
+        },
+        {
+            "id": "fm2",
+            "name": "Graphic Design",
+            "description": "Create visual designs, logos, illustrations, or branding materials.",
+            "condition": {
+                "look": 70,
+                "skills": 70
+            },
+            "salary": {
+                "min": 30,
+                "max": 80,
+                "currency": "USD",
+                "unit": "per hour"
+            }
+        },
+        {
+            "id": "fm3",
+            "name": "Writing",
+            "description": "Produce high-quality content, articles, blogs, or copywriting.",
+            "condition": {
+                "smart": 60,
+                "skills": 60
+            },
+            "salary": {
+                "min": 20,
+                "max": 50,
+                "currency": "USD",
+                "unit": "per hour"
+            }
+        },
+        {
+            "id": "fm4",
+            "name": "Marketing",
+            "description": "Execute marketing campaigns, strategies, or social media management.",
+            "condition": {
+                "smart": 65,
+                "skills": 65
+            },
+            "salary": {
+                "min": 40,
+                "max": 90,
+                "currency": "USD",
+                "unit": "per hour"
+            }
+        },
+        {
+            "id": "fm5",
+            "name": "Web Development",
+            "description": "Build websites, web applications, or e-commerce platforms.",
+            "condition": {
+                "smart": 70,
+                "skills": 70
+            },
+            "salary": {
+                "min": 60,
+                "max": 120,
+                "currency": "USD",
+                "unit": "per hour"
+            }
+        },
+        {
+            "id": "fm6",
+            "name": "Translation",
+            "description": "Provide translation services in multiple languages or specialized fields.",
+            "condition": {
+                "smart": 60,
+                "skills": 60
+            },
+            "salary": {
+                "min": 25,
+                "max": 60,
+                "currency": "USD",
+                "unit": "per hour"
+            }
+        },
+        {
+            "id": "fm7",
+            "name": "Video Editing",
+            "description": "Edit videos, create visual effects, or perform post-production work.",
+            "condition": {
+                "look": 65,
+                "skills": 65
+            },
+            "salary": {
+                "min": 35,
+                "max": 80,
+                "currency": "USD",
+                "unit": "per hour"
+            }
+        },
+        {
+            "id": "fm8",
+            "name": "Virtual Assistant",
+            "description": "Provide administrative support, scheduling, or customer service.",
+            "condition": {
+                "smart": 55,
+                "skills": 55
+            },
+            "salary": {
+                "min": 15,
+                "max": 40,
+                "currency": "USD",
+                "unit": "per hour"
+            }
+        }
+    ]
+}

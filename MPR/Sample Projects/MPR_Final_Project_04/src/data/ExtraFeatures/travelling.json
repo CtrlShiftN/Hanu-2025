@@ -1,0 +1,277 @@
+{
+    "travelling": {
+        "description": "Users can embark on travel adventures to destinations worldwide, each offering unique experiences, cultures, and attractions.",
+        "tours": [
+            {
+                "id": "tour1",
+                "name": "Backpacking in Southeast Asia",
+                "description": "Explore countries like Thailand, Vietnam, and Cambodia, experiencing vibrant cities, stunning landscapes, and rich cultural heritage.",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 10
+                        },
+                        {
+                            "type": "INCREASE_HEALTH",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        }
+                    ],
+                    "cost": {
+                        "min": 1000,
+                        "max": 3000,
+                        "currency": "USD",
+                        "duration": "2 weeks"
+                    }
+                }
+            },
+            {
+                "id": "tour2",
+                "name": "European Adventure",
+                "description": "Immerse yourself in art, history, and culinary delights across Europe, visiting iconic cities like Paris, Rome, and Barcelona.",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 25
+                        },
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        }
+                    ],
+                    "cost": {
+                        "min": 3000,
+                        "max": 7000,
+                        "currency": "USD",
+                        "duration": "2 weeks"
+                    }
+                }
+            },
+            {
+                "id": "tour3",
+                "name": "African Safari",
+                "description": "Witness the majestic wildlife of Africa on a safari adventure in Kenya or Tanzania. Encounter lions, elephants, and giraffes in their natural habitats.",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_HEALTH",
+                            "value": 20
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 10
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        }
+                    ],
+                    "cost": {
+                        "min": 5000,
+                        "max": 10000,
+                        "currency": "USD",
+                        "duration": "10 days"
+                    }
+                }
+            },
+            {
+                "id": "tour4",
+                "name": "Island Hopping in the Caribbean",
+                "description": "Relax on pristine beaches, snorkel in crystal-clear waters, and soak up the sun on tropical islands like Jamaica, Barbados, or the Bahamas.",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 10
+                        },
+                        {
+                            "type": "INCREASE_HEALTH",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_LOOK",
+                            "value": 5
+                        }
+                    ],
+                    "cost": {
+                        "min": 2000,
+                        "max": 5000,
+                        "currency": "USD",
+                        "duration": "1 week"
+                    }
+                }
+            },
+            {
+                "id": "tour5",
+                "name": "Cultural Immersion in Asia",
+                "description": "Dive into the diverse cultures of Asia, visiting destinations like Japan, South Korea, and China to experience ancient traditions, modern cities, and delicious cuisine.",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 15
+                        },
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        }
+                    ],
+                    "cost": {
+                        "min": 2500,
+                        "max": 6000,
+                        "currency": "USD",
+                        "duration": "2 weeks"
+                    }
+                }
+            },
+            {
+                "id": "tour6",
+                "name": "Adventure Trekking in South America",
+                "description": "Embark on thrilling treks through the Andes Mountains, explore the Amazon rainforest, and discover ancient ruins in countries like Peru, Ecuador, and Colombia.",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_HEALTH",
+                            "value": 15
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 10
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        }
+                    ],
+                    "cost": {
+                        "min": 2500,
+                        "max": 6000,
+                        "currency": "USD",
+                        "duration": "2 weeks"
+                    }
+                }
+            },
+            {
+                "id": "tour7",
+                "name": "Cultural Exploration in India",
+                "description": "Immerse yourself in the vibrant culture and spirituality of India, visit iconic landmarks such as the Taj Mahal, explore bustling markets, and savor delicious cuisine.",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 15
+                        },
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 5
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        }
+                    ],
+                    "cost": {
+                        "min": 2000,
+                        "max": 5000,
+                        "currency": "USD",
+                        "duration": "2 weeks"
+                    }
+                }
+            },
+            {
+                "id": "tour8",
+                "name": "Nature Retreat in New Zealand",
+                "description": "Experience the breathtaking landscapes of New Zealand, from pristine beaches and lush forests to snow-capped mountains and geothermal wonders, offering opportunities for hiking, kayaking, and scenic drives.",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_HEALTH",
+                            "value": 10
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 15
+                        },
+                        {
+                            "type": "INCREASE_LOOK",
+                            "value": 5
+                        }
+                    ],
+                    "cost": {
+                        "min": 3000,
+                        "max": 7000,
+                        "currency": "USD",
+                        "duration": "2 weeks"
+                    }
+                }
+            },
+            {
+                "id": "tour9",
+                "name": "Historical Tour in Egypt",
+                "description": "Explore ancient wonders such as the Pyramids of Giza, the Sphinx, and the temples of Luxor and Karnak, while cruising along the Nile River and learning about Egypt's rich history and culture.",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 10
+                        },
+                        {
+                            "type": "INCREASE_SMART",
+                            "value": 10
+                        },
+                        {
+                            "type": "INCREASE_SKILLS",
+                            "value": 5
+                        }
+                    ],
+                    "cost": {
+                        "min": 4000,
+                        "max": 8000,
+                        "currency": "USD",
+                        "duration": "10 days"
+                    }
+                }
+            },
+            {
+                "id": "tour10",
+                "name": "Wildlife Expedition in Galápagos Islands",
+                "description": "Encounter unique wildlife species found nowhere else on Earth, including giant tortoises, marine iguanas, and blue-footed boobies, while snorkeling, diving, and hiking in this UNESCO World Heritage Site.",
+                "result": {
+                    "character": [
+                        {
+                            "type": "INCREASE_HEALTH",
+                            "value": 15
+                        },
+                        {
+                            "type": "INCREASE_HAPPINESS",
+                            "value": 10
+                        },
+                        {
+                            "type": "INCREASE_LOOK",
+                            "value": 5
+                        }
+                    ],
+                    "cost": {
+                        "min": 5000,
+                        "max": 10000,
+                        "currency": "USD",
+                        "duration": "1 week"
+                    }
+                }
+            }
+        ]
+    }
+}

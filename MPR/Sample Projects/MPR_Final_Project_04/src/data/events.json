@@ -1,0 +1,779 @@
+{
+    "events": [
+        {
+            "name": "CHILD",
+            "condition": {"min": -1, "max": 5},
+            "events": [{
+                "message": "Welcome to the world! Do you want to skip your first few years?",
+                "condition": null,
+                "options": [
+                    {"title": "Skip",
+                    "action": "SKIP_CHILDHOOD",
+                    "payload": null
+                    },
+                    {"title": "Continue",
+                    "action": "HIDE_POPUP",
+                    "payload": null
+                    }
+                ]
+                }]
+        },
+        {   "name":"EDUCATION1",
+            "condition": {"min": 6, "max": 10},
+            "events": [{
+                "message": "It's time to start your learning path. Do you want to join elementary school?",
+                "condition": null,
+                "options": [
+                    {"title": "Join school",
+                    "action": "JOIN_ELE_SCHOOL",
+                    "payload": null
+                    },
+                    {"title": "Refuse School",
+                    "action": "REFUSE_SCHOOL",
+                    "payload": null
+                    }
+                ]
+                },
+                {
+        "message": "You make a new friend in school.",
+        "condition": "",
+        "status": "good",
+        "effect": {
+            "type": "MODIFY_STATISTIC",
+            "payload": {
+                "happiness": "+5"
+            }
+        }
+    },
+    {
+        "message": "You excel in a math competition.",
+        "condition": "",
+        "status": "good",
+        "effect": {
+            "type": "MODIFY_STATISTIC",
+            "payload": {
+                "happiness": "+10",
+                "smart": "+3"
+            }
+        }
+    },
+    {
+        "message": "Your parents praise you for your good behavior.",
+        "condition": "",
+        "status": "good",
+        "effect": {
+            "type": "MODIFY_STATISTIC",
+            "payload": {
+                "happiness": "+5",
+                "health": "+2"
+            }
+        }
+    },
+    {
+        "message": "You get sick and miss a week of school.",
+        "condition": "",
+        "status": "bad",
+        "effect": {
+            "type": "MODIFY_STATISTIC",
+            "payload": {
+                "health": "-10"
+            }
+        }
+    },
+    {
+        "message": "You fail a spelling test in front of the class.",
+        "condition": "",
+        "status": "bad",
+        "effect": {
+            "type": "MODIFY_STATISTIC",
+            "payload": {
+                "happiness": "-5",
+                "smart": "-3"
+            }
+        }
+    },
+    {
+        "message": "You get bullied by classmates.",
+        "condition": "",
+        "status": "bad",
+        "effect": {
+            "type": "MODIFY_STATISTIC",
+            "payload": {
+                "happiness": "-7",
+                "smart": "-2"
+            }
+        }
+    }
+                
+                ]
+        },
+        {   "name":"EDUCATION2",
+            "condition": {"min": 11, "max": 16},
+            "events": [{
+                "message": "Do you want to join secondary school?",
+                "condition": null,
+                "options": [
+                    {"title": "Join school",
+                    "action": "JOIN_SEC_SCHOOL",
+                    "payload": null
+                    },
+                    {"title": "Refuse School",
+                    "action": "REFUSE_SCHOOL",
+                    "payload": null
+                    }
+                ]
+                },
+                {
+                    "message": "You find a $20 bill on the street.",
+                    "condition": "",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+5",
+                            "amount": "+20"
+                        }
+                    }
+                },
+                {
+                    "message": "You successfully complete a challenging coding project.",
+                    "condition": "",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+10",
+                            "smart": "+8"
+                        }
+                    }
+                },
+                {
+                    "message": "You receive positive feedback on your work from a colleague.",
+                    "condition": "",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+7",
+                            "smart": "+4"
+                        }
+                    }
+                },
+                {
+                    "message": "You have an average day with no major events.",
+                    "condition": "",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+2"
+                        }
+                    }
+                },
+                {
+                    "message": "You receive a small bonus at work for your performance.",
+                    "condition": "",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+3",
+                            "amount": "+100"
+                        }
+                    }
+                },
+                {
+                    "message": "Your computer crashes and you lose unsaved work.",
+                    "condition": "",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-5",
+                            "smart": "-3"
+                        }
+                    }
+                },
+                {
+                    "message": "You receive a harsh critique on your project.",
+                    "condition": "",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-7",
+                            "smart": "-4"
+                        }
+                    }
+                },
+                {
+                    "message": "You fail to meet a project deadline.",
+                    "condition": "",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-8",
+                            "smart": "-5"
+                        }
+                    }
+                },
+                {
+                    "message": "You miss an important meeting due to oversleeping.",
+                    "condition": "",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-6",
+                            "smart": "-3"
+                        }
+                    }
+                },
+                {
+                    "message": "You receive a surprise promotion at work.",
+                    "condition": "",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+15",
+                            "amount": "+500"
+                        }
+                    }
+                },
+                {
+                    "message": "You help a colleague solve a difficult problem.",
+                    "condition": "",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+8",
+                            "smart": "+6"
+                        }
+                    }
+                },
+                {
+                    "message": "You receive a scholarship for your academic achievements.",
+                    "condition": "",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+12",
+                            "smart": "+8",
+                            "amount": "+1000"
+                        }
+                    }
+                }
+                
+                ]
+        },
+        {   "name": "UNIVERSITY",
+            "condition": {
+                "min": 17,
+                "max": 21
+            },
+            
+            "events": [{
+                    "message": "It's time to choose your university",
+                    "options": [
+                        {
+                            "action": "CHOOSE_UNIVERSITY",
+                            "title": "Hanoi University",
+                            "payload": "Hanoi University"
+                        },{
+                            "action": "CHOOSE_UNIVERSITY",
+                            "title": "HUST",
+                            "payload": "HUST"
+                        },
+                        {
+                            "action": "CHOOSE_UNIVERSITY",
+                            "title": "FPT Polytechnic",
+                            "payload": "FPT Polytechnic"
+                        }
+                    ]
+                },
+                {
+                    "message": "You receive a full scholarship for your dream university.",
+                    "condition": "",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+15",
+                            "smart": "+10",
+                            "amount": "+1000"
+                        }
+                    }
+                },
+                {
+                    "message": "You excel in your first semester and receive academic recognition.",
+                    "condition": "",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+12",
+                            "smart": "+8"
+                        }
+                    }
+                },
+                {
+                    "message": "You form a study group with classmates and improve your understanding of subjects.",
+                    "condition": "",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+8",
+                            "smart": "+6"
+                        }
+                    }
+                },
+                {
+                    "message": "You secure an internship at a prestigious company during summer break.",
+                    "condition": "",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+10",
+                            "smart": "+7",
+                            "amount": "+500"
+                        }
+                    }
+                },
+                {
+                    "message": "You struggle with managing your coursework and experience burnout.",
+                    "condition": "",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-10",
+                            "smart": "-7"
+                        }
+                    }
+                },
+                {
+                    "message": "You fail a crucial exam and must retake the course.",
+                    "condition": "",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-15",
+                            "smart": "-10"
+                        }
+                    }
+                },
+                {
+                    "message": "You face financial difficulties and struggle to pay for tuition fees.",
+                    "condition": "",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-12",
+                            "amount": "-1000"
+                        }
+                    }
+                },
+                {
+                    "message": "You encounter personal issues that affect your academic performance.",
+                    "condition": "",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-10",
+                            "smart": "-8"
+                        }
+                    }
+                },
+                {
+                    "message": "You miss an important deadline for a major project.",
+                    "condition": "",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-8",
+                            "smart": "-6"
+                        }
+                    }
+                },
+                {
+                    "message": "You make steady progress in your studies and maintain a balanced lifestyle.",
+                    "condition": "",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+5",
+                            "smart": "+4"
+                        }
+                    }
+                },
+                {
+                    "message": "You participate in extracurricular activities and broaden your skill set.",
+                    "condition": "",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+7",
+                            "smart": "+5"
+                        }
+                    }
+                },
+                {
+                    "message": "You receive constructive feedback from professors and work on areas for improvement.",
+                    "condition": "",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+6",
+                            "smart": "+4"
+                        }
+                    }
+                },
+                {
+                    "message": "You face minor setbacks but remain resilient in your academic pursuits.",
+                    "condition": "",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+4",
+                            "smart": "+3"
+                        }
+                    }
+                },
+                {
+                    "message": "You have an average semester with no significant events.",
+                    "condition": "",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+3",
+                            "smart": "+2"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "WORK",
+            "condition": {
+                "min": 22,
+                "max": 40
+            },
+            "events": [
+                {
+                    "message": "You receive a promotion and salary increase at your job.",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+10",
+                            "amount": "+1000"
+                        }
+                    }
+                },
+                {
+                    "message": "You successfully complete a challenging project and earn recognition from your colleagues.",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+8",
+                            "smart": "+6"
+                        }
+                    }
+                },
+                {
+                    "message": "You find a better job opportunity with higher pay and benefits.",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+12",
+                            "amount": "+1500"
+                        }
+                    }
+                },
+                {
+                    "message": "You face challenges at work but successfully overcome them, gaining valuable experience.",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+5"
+                        }
+                    }
+                },
+                {
+                    "message": "You receive constructive feedback on your performance and use it to improve.",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+3",
+                            "smart": "+2"
+                        }
+                    }
+                },
+                {
+                    "message": "You maintain a steady work-life balance and feel content with your job.",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+4"
+                        }
+                    }
+                },
+                {
+                    "message": "You encounter a setback at work but learn from it and grow stronger.",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+2",
+                            "smart": "+1"
+                        }
+                    }
+                },
+                {
+                    "message": "You face increased workload and stress, affecting your overall well-being.",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-5",
+                            "smart": "-3"
+                        }
+                    }
+                },
+                {
+                    "message": "You experience conflicts with colleagues that negatively impact your work environment.",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-6",
+                            "smart": "-4"
+                        }
+                    }
+                },
+                {
+                    "message": "You face a demotion at work due to performance issues.",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-8",
+                            "smart": "-5"
+                        }
+                    }
+                },
+                {
+                    "message": "You make a serious mistake at work, leading to consequences for you and your team.",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-10",
+                            "smart": "-8",
+                            "amount": "-1000"
+                        }
+                    }
+                },
+                {
+                    "message": "You face uncertainty about your job security due to company restructuring.",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-7",
+                            "smart": "-5"
+                        }
+                    }
+                }
+            ]
+        }
+        ,
+        {
+            "name": "RETIRE",
+            "condition": {
+                "min": 41,
+                "max": 150
+            },
+            "message": "You are retired",
+            "events": [
+                {
+                    "message": "You travel to your dream destination and fulfill a lifelong dream.",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+15",
+                            "amount": "-1000"
+                        }
+                    }
+                },
+                {
+                    "message": "You spend quality time with your family and create cherished memories.",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+12"
+                        }
+                    }
+                },
+                {
+                    "message": "You pursue a new hobby or interest and find joy in the experience.",
+                    "status": "good",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+10"
+                        }
+                    }
+                },
+                {
+                    "message": "You face a health scare but recover fully with the support of loved ones.",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+5",
+                            "health": "+3"
+                        }
+                    }
+                },
+                {
+                    "message": "You volunteer for a cause you believe in and make a positive impact in your community.",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+7"
+                        }
+                    }
+                },
+                {
+                    "message": "You experience minor health issues but manage them effectively with medical care.",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+3",
+                            "health": "-2"
+                        }
+                    }
+                },
+                {
+                    "message": "You are dead! Car accident!",
+                    "status": "deady",
+                    "effect": {
+                        "type": "DEAD",
+                        "payload": {
+                            "deathReason": "Car accident"
+                        }
+                    }
+                },
+                {
+                    "message": "You are dead! Heart attack!",
+                    "status": "deady",
+                    "effect": {
+                        "type": "DEAD",
+                        "payload": {
+                            "deathReason": "Heart attack"
+                        }
+                    }
+                },
+                {
+                    "message": "You are dead! COVID-19!",
+                    "status": "deady",
+                    "effect": {
+                        "type": "DEAD",
+                        "payload": {
+                            "deathReason": "COVID-19"
+                        }
+                    }
+                },
+                {
+                    "message": "You struggle with adjusting to retired life but find fulfillment in new activities.",
+                    "status": "mid",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "+2"
+                        }
+                    }
+                },
+                {
+                    "message": "You experience financial stress due to unexpected expenses but find ways to manage.",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-5",
+                            "amount": "-2000"
+                        }
+                    }
+                },
+                {
+                    "message": "You feel lonely and isolated after retirement, struggling to find meaningful connections.",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-7"
+                        }
+                    }
+                },
+                {
+                    "message": "You encounter family conflicts that strain relationships and affect your well-being.",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-8"
+                        }
+                    }
+                },
+                {
+                    "message": "You face difficulties adapting to a fixed income and cutting back on expenses.",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-6",
+                            "amount": "-1500"
+                        }
+                    }
+                },
+                {
+                    "message": "You deal with health issues that require ongoing medical treatment and impact your lifestyle.",
+                    "status": "bad",
+                    "effect": {
+                        "type": "MODIFY_STATISTIC",
+                        "payload": {
+                            "happiness": "-10",
+                            "health": "-5"
+                        }
+                    }
+                }
+            ]
+        }
+        
+    ]
+}
