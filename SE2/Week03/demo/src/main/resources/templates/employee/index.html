@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Employee List</title>
+</head>
+<body>
+<div>
+	<h2>EMPLOYEE LIST</h2>
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Image</th>
+			<th>Update</th>
+			<th>Delete</th>
+		</tr>
+		<tr th:each="employee : ${employees}">
+			SE2 – TUTORIAL 2
+			<td th:text="${employee.id}"/>
+			<td th:text="${employee.name}">
+			</td>
+			<td>
+				<img th:src="'/images' + ${employee.image}" width="100" height="100"/>
+			</td>
+			<td>
+				<a th:href="'/detail/' + ${employee.id}" th:text="${employee.name}"></a>
+			</td>
+			<td>UPDATE</td>
+			<td>
+				<a th:href="'/delete/' + ${employee.id}">Delete</a>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>

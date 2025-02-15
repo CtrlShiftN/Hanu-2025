@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link th:href="@{/bootstrap-5.3.3/css/bootstrap.min.css}" rel="stylesheet">
+	<script th:src="@{/bootstrap-5.3.3/js/bootstrap.bundle.js}"></script>
+	<title>Add New Employee</title>
+</head>
+<body>
+<div class="container">
+	<h2>ADD EMPLOYEE</h2>
+	<form th:action="'/save'" th:object="${employee}" method="post">
+		<p>
+			<label>Employee name: </label>
+			<input type="text" th:field="${employee.name}">
+		</p>
+		<p>
+			<label>Employee age: </label>
+			<input type="number" th:field="${employee.age}">
+		</p>
+		<p class="form-group">
+			<label>Employee image: </label>
+			<input type="file" th:field="${employee.image}">
+		</p>
+		<p class="form-group">
+			<label>Employee address </label>
+			<input type="text" th:field="${employee.address}">
+		</p>
+		<p>
+			<button type="submit" class="btn btn-success">ADD</button>
+		</p>
+	</form>
+</div>
+</body>
+</html>

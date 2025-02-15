@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Employee Detail</title>
+</head>
+<body>
+<div class="container">
+	<div>
+		<img th:src="'/images' + ${employee.image}" width="200" height="300">
+	</div>
+	<h2 th:text="${employee.name}"/>
+</div>
+</body>
+</html>
