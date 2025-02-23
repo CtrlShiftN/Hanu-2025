@@ -26,7 +26,7 @@ const ProductListScreen = ({navigation}) => {
                     </TouchableOpacity>
                 )}
             />
-            <Button title="Add Product" onPress={() => navigation.navigate('AddProduct')}/>
+            <Button title="Add Product" onPress={() => navigation.navigate('AddProduct', { setProducts, products })}/>
         </View>
     );
 };
