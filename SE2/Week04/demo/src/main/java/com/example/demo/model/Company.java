@@ -2,18 +2,19 @@ package com.example.demo.model;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
-public class Employee {
+public class Company {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
     private String name;
-    private int age;
     private String address;
     private String image;
-    @ManyToOne
-    private Company company;
+    @OneToMany(mappedBy = "company")
+    private List<Employee> employees;
 
     public Long getId() {
         return id;
@@ -39,14 +40,6 @@ public class Employee {
         this.address = address;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public String getName() {
         return name;
     }
@@ -55,4 +48,3 @@ public class Employee {
         this.name = name;
     }
 }
-

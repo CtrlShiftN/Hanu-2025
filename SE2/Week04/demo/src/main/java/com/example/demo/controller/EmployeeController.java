@@ -1,6 +1,8 @@
 package com.example.demo.controller;
 
+import com.example.demo.model.Company;
 import com.example.demo.model.Employee;
+import com.example.demo.repository.CompanyRepository;
 import com.example.demo.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,11 +15,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 @Controller
+@RequestMapping(value = "/employee")
 public class EmployeeController {
     @Autowired
     EmployeeRepository employeeRepository;
+    @Autowired
+    CompanyRepository companyRepository;
 
-    @RequestMapping(value = "/")
+    @RequestMapping(value = "/list")
     public String getAllEmployee(Model model) {
         List<Employee> employees = employeeRepository.findAll();
         model.addAttribute("employees", employees);
@@ -48,7 +53,9 @@ public class EmployeeController {
     @RequestMapping("/add")
     public String addEmployee(Model model) {
         Employee employee = new Employee();
+        List<Company> companies = companyRepository.findAll();
         model.addAttribute("employee", employee);
+        model.addAttribute("companies", companies);
         return "employee/add";
     }
 

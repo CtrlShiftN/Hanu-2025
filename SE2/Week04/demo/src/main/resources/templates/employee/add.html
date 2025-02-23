@@ -9,7 +9,13 @@
 <body>
 <div class="container">
 	<h2>ADD EMPLOYEE</h2>
-	<form th:action="'/save'" th:object="${employee}" method="post">
+	<form th:action="'/employee/save'" th:object="${employee}" method="post">
+		<p class="form-group">
+			<label>Company </label>
+			<select class="form-select" th:field="${companies}">
+				<option th:each="comp : ${companies}" th:value="${comp.id}" th:text="${comp.name}"/>
+			</select>
+		</p>
 		<p>
 			<label>Employee name: </label>
 			<input type="text" th:field="${employee.name}">

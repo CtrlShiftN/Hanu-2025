@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="./layouts/_layout">
 <head>
 	<meta charset="UTF-8">
 	<link th:href = "@{/bootstrap-5.3.3/css/bootstrap.min.css}" rel="stylesheet">
@@ -7,9 +9,9 @@
 	<title>Employee List</title>
 </head>
 <body>
-<div class="container">
+<div class="container" layout:fragment="content">
 	<h2>EMPLOYEE LIST</h2>
-	<a th:href="'/add'" class="btn btn-success my-2" th:text="'+ Add Employee'"></a>
+	<a th:href="'/employee/add'" class="btn btn-success my-2" th:text="'+ Add Employee'"></a>
 	<table class="p-3 table table-striped table-hover table-bordered">
 		<tr>
 			<th class="text-center fw-bolder">ID</th>
@@ -26,13 +28,13 @@
 				<img th:src="'/images/' + ${employee.image}" width="100" height="100"/>
 			</td>
 			<td>
-				<a th:href="'/detail/' + ${employee.id}" th:text="'See more...'"></a>
+				<a th:href="'/employee/detail/' + ${employee.id}" th:text="'See more...'"></a>
 			</td>
 			<td>
-				<a th:href="'/update/' + ${employee.id}" th:text="${employee.name}"></a>
+				<a th:href="'/employee/update/' + ${employee.id}" th:text="${employee.name}"></a>
 			</td>
 			<td>
-				<a th:href="'/delete/' + ${employee.id}">Delete</a>
+				<a th:href="'/employee/delete/' + ${employee.id}">Delete</a>
 			</td>
 		</tr>
 	</table>
