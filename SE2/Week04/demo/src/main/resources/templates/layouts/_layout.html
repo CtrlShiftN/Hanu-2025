@@ -38,5 +38,27 @@
 <div layout:fragment="content" class="pt-2">
 	<!-- Content page here -->
 </div>
+<script>
+	let comId = [[${ comId }]];
+	let sortMode = [[${ sortMode }]];
+	function filterRedirect() {
+		let url = "/employee/list?company=" + comId + "&sort=" + sortMode;
+		window.location.href = url; // redirect
+	}
+	window.addEventListener("load", function () {
+		const comFilter = document.getElementById("filterCompany");
+		comFilter.value = comId;
+		comFilter.addEventListener("change", function (e) {
+			comId = e.target.value;
+			filterRedirect();
+		});
+		const sortMenu = document.getElementById("sortOptions");
+		sortMenu.value = sortMode;
+		sortMenu.addEventListener("change", function (e) {
+			sortMode = e.target.value;
+			filterRedirect();
+		});
+	});
+</script>
 </body>
 </html>

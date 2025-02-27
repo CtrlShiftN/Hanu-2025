@@ -95,8 +95,7 @@ class MovablePoint extends Point {
 
 	// Move method
 	public MovablePoint move() {
-		this.setX(xSpeed);
-		this.setY(ySpeed);
+		// TODO: implement this
 		return this;
 	}
 

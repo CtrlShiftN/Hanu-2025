@@ -52,17 +52,7 @@ class BubbleSort extends IntSortingAlgorithm {
 
 	@Override
 	public void sort() {
-		sortedArray = array.clone();
-		int n = sortedArray.length;
-		for (int i = 0; i < n - 1; i++) {
-			for (int j = 0; j < n - 1 - i; j++) {
-				if (sortedArray[j] > sortedArray[j + 1]) {
-					int temp = sortedArray[j];
-					sortedArray[j] = sortedArray[j + 1];
-					sortedArray[j + 1] = temp;
-				}
-			}
-		}
+		// TODO: implement this
 	}
 }
 
@@ -74,8 +64,7 @@ class QuickSort extends IntSortingAlgorithm {
 
 	@Override
 	public void sort() {
-		sortedArray = array.clone();
-		quickSort(sortedArray, 0, sortedArray.length - 1);
+		// TODO: implement this
 	}
 
 	private void quickSort(int[] arr, int low, int high) {
@@ -112,8 +101,7 @@ class MergeSort extends IntSortingAlgorithm {
 
 	@Override
 	public void sort() {
-		sortedArray = array.clone();
-		mergeSort(sortedArray, 0, sortedArray.length - 1);
+		// TODO: implement this
 	}
 
 	private void mergeSort(int[] arr, int left, int right) {

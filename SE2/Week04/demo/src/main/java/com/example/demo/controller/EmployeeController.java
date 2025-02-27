@@ -5,14 +5,13 @@ import com.example.demo.model.Employee;
 import com.example.demo.repository.CompanyRepository;
 import com.example.demo.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 @RequestMapping(value = "/employee")
@@ -23,9 +22,43 @@ public class EmployeeController {
     CompanyRepository companyRepository;
 
     @RequestMapping(value = "/list")
-    public String getAllEmployee(Model model) {
-        List<Employee> employees = employeeRepository.findAll();
+    public String getAllEmployee(@RequestParam(value = "company", required = false, defaultValue = "0") Long comId,
+                                 @RequestParam(value = "sort", required = false, defaultValue = "0") int sortMode,
+                                 Model model) {
+        List<Employee> employees;
+        List<Company> companies = companyRepository.findAll();
+
+        Sort sort = Sort.unsorted(); // Default sorting (no sorting)
+
+        // Determine sorting order
+        if (sortMode == 0) {
+            sort = Sort.by(Sort.Direction.ASC, "id"); // Default sort by ID
+        } else if (sortMode == 1) {
+            sort = Sort.by(Sort.Direction.DESC, "id");
+        } else if (sortMode == 2) {
+            sort = Sort.by(Sort.Direction.ASC, "name");
+        } else if (sortMode == 3) {
+            sort = Sort.by(Sort.Direction.DESC, "name");
+        }
+
+        // Filter by company if specified
+        if (comId != 0) {
+            Optional<Company> comp = companyRepository.findById(comId);
+            if (comp.isPresent()) {
+                employees = employeeRepository.findByCompany(comp.get(), sort);
+            } else {
+                employees = employeeRepository.findAll(sort);
+            }
+        } else {
+            employees = employeeRepository.findAll(sort);
+        }
+
+        // Add attributes to the model for Thymeleaf
         model.addAttribute("employees", employees);
+        model.addAttribute("companies", companies);
+        model.addAttribute("comId", comId);
+        model.addAttribute("sortMode", sortMode);
+
         return "employee/index";
     }
 

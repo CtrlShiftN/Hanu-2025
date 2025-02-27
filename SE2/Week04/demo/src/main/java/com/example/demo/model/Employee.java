@@ -12,8 +12,11 @@ public class Employee {
     private int age;
     private String address;
     private String image;
+
     @ManyToOne
     private Company company;
+    @Column(insertable=false, updatable=false)
+    private int company_id;
 
     public Long getId() {
         return id;
@@ -53,6 +56,22 @@ public class Employee {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Company getCompany() {
+        return company;
+    }
+
+    public void setCompany(Company company) {
+        this.company = company;
+    }
+
+    public int getCompany_id() {
+        return company_id;
+    }
+
+    public void setCompany_id(int company_id) {
+        this.company_id = company_id;
     }
 }
 

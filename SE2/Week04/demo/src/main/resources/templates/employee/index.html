@@ -16,6 +16,7 @@
 		<tr>
 			<th class="text-center fw-bolder">ID</th>
 			<th class="text-center fw-bolder">Name</th>
+			<th class="text-center fw-bolder">Company</th>
 			<th class="text-center fw-bolder">Image</th>
 			<th class="text-center fw-bolder">Details</th>
 			<th colspan="2" class="text-center fw-bolder">Actions</th>
@@ -23,6 +24,8 @@
 		<tr th:each="employee : ${employees}">
 			<td th:text="${employee.id}"/>
 			<td th:text="${employee.name}">
+			</td>
+			<td th:text="${companies.get(employee.company_id - 1).getName()}">
 			</td>
 			<td>
 				<img th:src="'/images/' + ${employee.image}" width="100" height="100"/>
@@ -37,8 +40,23 @@
 				<a th:href="'/employee/delete/' + ${employee.id}">Delete</a>
 			</td>
 		</tr>
+		<div class="filterContainer my-3">
+			Company:
+			<select id="filterCompany">
+				<option value="0">All companies</option>
+				<option th:each="comp : ${companies}"
+				        th:value="${comp.id}"
+				        th:text="${comp.name}" />
+			</select>
+			Sort:
+			<select id="sortOptions">
+				<option value="0">Latest</option>
+				<option value="1">Oldest</option>
+				<option value="2">By name ASC</option>
+				<option value="3">By name DESC</option>
+			</select>
+		</div>
 	</table>
 </div>
-
 </body>
 </html>
