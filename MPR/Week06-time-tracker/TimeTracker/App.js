@@ -13,8 +13,8 @@ const App = () => {
 
 	useEffect(() => {
 		const loadTimers = async () => {
-		const storedTimers = await AsyncStorage.getItem('timers');
-		if (storedTimers) setTimers(JSON.parse(storedTimers));
+			const storedTimers = await AsyncStorage.getItem('timers');
+			if (storedTimers) setTimers(JSON.parse(storedTimers));
 		};
 		loadTimers();
 	}, []);
