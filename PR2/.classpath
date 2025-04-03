@@ -6,7 +6,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="G:/My Pirate/doctor-libs/Company/Hanu/S2025 - F2025/PR2-CLC/Old/lec3/Tut 03/javaparser-core-3.0.1.jar"/>
-	<classpathentry kind="lib" path="G:/My Pirate/doctor-libs/Programming/Java/Core/Hanu/PR2/slide/chapter03/resources/t3-utils.jar"/>
+	<classpathentry kind="lib" path="G:/MyPirate/doctor-libs/Programming/Java/Core/Hanu/PR2/slide/chapter03/resources/t3-utils.jar"/>
+	<classpathentry kind="lib" path="G:/MyPirate/doctor-libs/Programming/Java/Core/Hanu/PR2/slide/chapter03/javaparser-core-3.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
