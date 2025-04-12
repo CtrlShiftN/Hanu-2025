@@ -63,7 +63,7 @@ public class LoginGUI implements ActionListener {
 		String username = usernameTF.getText();
 		String password = String.valueOf(passwordTF.getPassword());
 		// simulate SQL queries to find the account from DB
-		if (username.equals("Admin") && password.equals("admin1234")) {
+		if (username.equals("Admin") && password.equals("Admin@1234")) {
 			message.setForeground(Color.GREEN);
 			message.setText("Login Successfully!");
 		} else {
